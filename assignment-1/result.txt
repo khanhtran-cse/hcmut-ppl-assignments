@@ -1,0 +1,345 @@
+Run starting. Expected test count is: 0
+ParserSuite:
+- a simple identifier *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 101) was false (ParserSuite.scala:12)
+- half function declare *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 102) was false (ParserSuite.scala:18)
+- open and close parentheses *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 103) was false (ParserSuite.scala:23)
+- comment *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 104) was false (ParserSuite.scala:29)
+- underscore *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 105) was false (ParserSuite.scala:35)
+- float literal *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 106) was false (ParserSuite.scala:41)
+- string literal *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 107) was false (ParserSuite.scala:47)
+- boolean string *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 108) was false (ParserSuite.scala:53)
+- Unclose string *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 109) was false (ParserSuite.scala:59)
+- Ellige string *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 100) was false (ParserSuite.scala:67)
+- Error string 1 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 111) was false (ParserSuite.scala:73)
+- true string *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 112) was false (ParserSuite.scala:79)
+- false string *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 113) was false (ParserSuite.scala:85)
+- test string *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 114) was false (ParserSuite.scala:91)
+- 15 open and close parentheses *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 115) was false (ParserSuite.scala:97)
+- float and comment *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 116) was false (ParserSuite.scala:103)
+- float comment nest commnet *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 117) was false (ParserSuite.scala:109)
+- test float8 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 118) was false (ParserSuite.scala:116)
+- test float9 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 119) was false (ParserSuite.scala:121)
+- test float11 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 122) was false (ParserSuite.scala:127)
+- test bool1 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 120) was false (ParserSuite.scala:132)
+- test cmt *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 121) was false (ParserSuite.scala:138)
+- test23 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 123) was false (ParserSuite.scala:145)
+- test24 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 124) was false (ParserSuite.scala:151)
+- test25 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 125) was false (ParserSuite.scala:157)
+- test26 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 126) was false (ParserSuite.scala:163)
+- test27 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 127) was false (ParserSuite.scala:169)
+- test28 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 128) was false (ParserSuite.scala:175)
+- test29 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 129) was false (ParserSuite.scala:181)
+- test30 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 130) was false (ParserSuite.scala:187)
+- test32 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 132) was false (ParserSuite.scala:195)
+- test33 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 133) was false (ParserSuite.scala:200)
+- test34 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 134) was false (ParserSuite.scala:205)
+- test35 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 135) was false (ParserSuite.scala:210)
+- test36 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 136) was false (ParserSuite.scala:215)
+- test37 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 137) was false (ParserSuite.scala:220)
+- test38 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 138) was false (ParserSuite.scala:225)
+- test39 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 139) was false (ParserSuite.scala:230)
+- test40 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 140) was false (ParserSuite.scala:235)
+- test41 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 141) was false (ParserSuite.scala:240)
+- test42 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 142) was false (ParserSuite.scala:245)
+- test43 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 143) was false (ParserSuite.scala:250)
+- test44 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 144) was false (ParserSuite.scala:255)
+- test45 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 145) was false (ParserSuite.scala:260)
+- test46 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 146) was false (ParserSuite.scala:265)
+- test47 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 147) was false (ParserSuite.scala:270)
+- test48 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 148) was false (ParserSuite.scala:275)
+- test49 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 149) was false (ParserSuite.scala:280)
+- test50 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 150) was false (ParserSuite.scala:285)
+- test51 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 151) was false (ParserSuite.scala:290)
+- error token1 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 152) was false (ParserSuite.scala:296)
+- error token 2 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 153) was false (ParserSuite.scala:301)
+- tets id1 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 154) was false (ParserSuite.scala:306)
+- tets id2 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 155) was false (ParserSuite.scala:311)
+- tets id3 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 156) was false (ParserSuite.scala:316)
+- tets id4 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 157) was false (ParserSuite.scala:321)
+- tets id5 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 158) was false (ParserSuite.scala:326)
+- test float1 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 159) was false (ParserSuite.scala:331)
+- test float2 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 160) was false (ParserSuite.scala:336)
+- test float3 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 161) was false (ParserSuite.scala:341)
+- test float4 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 162) was false (ParserSuite.scala:346)
+- test float5 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 163) was false (ParserSuite.scala:351)
+- test float6 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 164) was false (ParserSuite.scala:356)
+- test float7 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 165) was false (ParserSuite.scala:361)
+- a simple  true program *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 166) was false (ParserSuite.scala:367)
+- more complex  true program *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 167) was false (ParserSuite.scala:374)
+- wrong program *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 168) was false (ParserSuite.scala:379)
+- 104-more complex program *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 169) was false (ParserSuite.scala:387)
+- 105-more complex program *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 170) was false (ParserSuite.scala:399)
+- 106-initialize variable *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 171) was false (ParserSuite.scala:411)
+- 107-initialize variable at declaration time *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 172) was false (ParserSuite.scala:424)
+- 108-comment in declaration variable *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 173) was false (ParserSuite.scala:436)
+- 109-call function *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 174) was false (ParserSuite.scala:448)
+- full program three *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 175) was false (ParserSuite.scala:458)
+- test LExer 111 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 176) was false (ParserSuite.scala:484)
+- test LExer 112 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 177) was false (ParserSuite.scala:490)
+- test LExer 113 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 178) was false (ParserSuite.scala:499)
+- test LExer 114 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 179) was false (ParserSuite.scala:506)
+- test LExer 115 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 180) was false (ParserSuite.scala:529)
+- test LExer 116 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 181) was false (ParserSuite.scala:554)
+- test LExer 117 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 182) was false (ParserSuite.scala:572)
+- test LExer 118 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 183) was false (ParserSuite.scala:580)
+- test LExer 119 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 184) was false (ParserSuite.scala:593)
+- testcases for ParserSuite 120 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 185) was false (ParserSuite.scala:622)
+- test lexer *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 186) was false (ParserSuite.scala:638)
+- test lexer 87 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 187) was false (ParserSuite.scala:657)
+- test lexer 88 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 188) was false (ParserSuite.scala:677)
+- test lexer 89 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 189) was false (ParserSuite.scala:698)
+- test lexer 90 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 190) was false (ParserSuite.scala:721)
+- test lexer 91 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 191) was false (ParserSuite.scala:748)
+- test lexer 92 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 192) was false (ParserSuite.scala:758)
+- test lexer 93 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 193) was false (ParserSuite.scala:787)
+- test lexer 94 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 194) was false (ParserSuite.scala:827)
+- test lexer 95 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 195) was false (ParserSuite.scala:846)
+- test lexer 96 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 196) was false (ParserSuite.scala:857)
+- test lexer 97 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 197) was false (ParserSuite.scala:883)
+- test lexer 98 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 198) was false (ParserSuite.scala:906)
+- test lexer 99 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 199) was false (ParserSuite.scala:925)
+- test lexer 100 *** FAILED ***
+  ParserSuite.this.checkRec(input, expect, 200) was false (ParserSuite.scala:938)
+LexerSuite:
+- a simple identifier
+- half function declare
+- open and close parentheses
+- comment
+- underscore
+- float literal
+- string literal
+- boolean string
+- Unclose string
+- Ellige string *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 10) was false (LexerSuite.scala:68)
+- Error string 1
+- true string *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 12) was false (LexerSuite.scala:82)
+- false string
+- test string
+- 15 open and close parentheses
+- float and comment
+- float comment nest commnet
+- test float8
+- test float9
+- test float11
+- test bool1
+- test cmt
+- test23
+- test24
+- test25 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 25) was false (LexerSuite.scala:160)
+- test26 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 26) was false (LexerSuite.scala:166)
+- test27
+- test28 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 28) was false (LexerSuite.scala:178)
+- test29
+- test30
+- test32 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 32) was false (LexerSuite.scala:198)
+- test33 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 33) was false (LexerSuite.scala:203)
+- test34 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 34) was false (LexerSuite.scala:208)
+- test35 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 35) was false (LexerSuite.scala:213)
+- test36 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 36) was false (LexerSuite.scala:218)
+- test37
+- test38
+- test39
+- test40
+- test41
+- test42 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 42) was false (LexerSuite.scala:248)
+- test43
+- test44 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 44) was false (LexerSuite.scala:258)
+- test45 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 45) was false (LexerSuite.scala:263)
+- test46
+- test47 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 47) was false (LexerSuite.scala:273)
+- test48
+- test49
+- test50 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 50) was false (LexerSuite.scala:288)
+- test51
+- error token1
+- error token 2
+- tets id1
+- tets id2
+- tets id3
+- tets id4
+- tets id5
+- test float1
+- test float2
+- test float3
+- test float4
+- test float5
+- test float6
+- test float7
+- a simple  true program
+- more complex  true program
+- wrong program
+- 104-more complex program
+- 105-more complex program
+- 106-initialize variable
+- 107-initialize variable at declaration time
+- 108-comment in declaration variable
+- 109-call function
+- full program three
+- test LExer 111 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 76) was false (LexerSuite.scala:487)
+- test LExer 112 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 77) was false (LexerSuite.scala:493)
+- test LExer 113 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 78) was false (LexerSuite.scala:502)
+- test LExer 114 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 79) was false (LexerSuite.scala:509)
+- test LExer 115 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 80) was false (LexerSuite.scala:532)
+- test LExer 116 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 81) was false (LexerSuite.scala:557)
+- test LExer 117 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 82) was false (LexerSuite.scala:575)
+- test LExer 118 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 83) was false (LexerSuite.scala:583)
+- test LExer 119 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 84) was false (LexerSuite.scala:596)
+- testcases for ParserSuite 120 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 85) was false (LexerSuite.scala:625)
+- test lexer *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 86) was false (LexerSuite.scala:641)
+- test lexer 87 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 87) was false (LexerSuite.scala:660)
+- test lexer 88 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 88) was false (LexerSuite.scala:680)
+- test lexer 89 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 89) was false (LexerSuite.scala:701)
+- test lexer 90 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 90) was false (LexerSuite.scala:724)
+- test lexer 91 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 91) was false (LexerSuite.scala:751)
+- test lexer 92 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 92) was false (LexerSuite.scala:761)
+- test lexer 93 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 93) was false (LexerSuite.scala:790)
+- test lexer 94 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 94) was false (LexerSuite.scala:830)
+- test lexer 95 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 95) was false (LexerSuite.scala:849)
+- test lexer 96 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 96) was false (LexerSuite.scala:860)
+- test lexer 97 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 97) was false (LexerSuite.scala:886)
+- test lexer 98 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 98) was false (LexerSuite.scala:909)
+- test lexer 99 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 99) was false (LexerSuite.scala:928)
+- test lexer 100 *** FAILED ***
+  LexerSuite.this.checkLex(input, expect, 100) was false (LexerSuite.scala:941)
+Run completed in 1 second, 726 milliseconds.
+Total number of tests run: 198
+Suites: completed 2, aborted 0
+Tests: succeeded 59, failed 139, canceled 0, ignored 0, pending 0
+*** 139 TESTS FAILED ***
