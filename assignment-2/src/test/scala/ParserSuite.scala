@@ -7,7 +7,7 @@ class ParserSuite  extends FunSuite with TestParser {
 
 
   test("a simple identifier") {
-    val input = "abc int"
+    val input = "void main () {}"
     val expect = """successful"""
     assert(checkRec(input,expect,101))
   }
@@ -42,7 +42,7 @@ class ParserSuite  extends FunSuite with TestParser {
   }
 
   test("string literal"){
-    val input = """ "This is a string" int abc""";
+    val input = """int abc; printf("This is a string");""";
     var expect = """This is a string,int,abc,<EOF>""";
     assert(checkRec(input,expect,107));
   }
@@ -925,17 +925,23 @@ val expect = """successful"""
 assert(checkRec(input,expect,199));
 }
 
-test("test lexer 100"){
- val input = """int main()
-{
-    int n, i, flag = 0;
-
-    printf("Enter a positive integer: ");
-    scanf("%d",&n);
-
-""";
-val expect = """successful"""
-assert(checkRec(input,expect,200));
-}
+test("200. a simple function declaration with assign-expression statement and BooleanLiteral") {
+    val input ="""int base, exponent;
+                  int main()
+                  {
+                     printf("Enter a base number: ");
+                     scanf("%d", base);
+                     printf("Enter an exponent: ");
+                     scanf("%d", exponent);
+                     do
+                         result = base;
+                         --exponent;
+                     while (exponent != 0);
+                     printf("Answer = %lld", result);
+                     return 0;
+                  }"""
+    val expected = """successful"""
+    assert(checkRec(input,expected,200))
+  }
 
 }

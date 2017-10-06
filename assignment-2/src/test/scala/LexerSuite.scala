@@ -6,7 +6,7 @@ import org.scalatest.FunSuite
 class LexerSuite extends FunSuite with TestLexer {
 
   test("a simple identifier") {
-    val input = "abc int"
+    val input = """printf("Enter a base number: ");""""
     val expect = "abc,int,<EOF>"
     assert(checkLex(input,expect,1))
   }
@@ -929,14 +929,20 @@ assert(checkLex(input,expect,99));
 }
 
 test("test lexer 100"){
- val input = """int main()
-{
-    int n, i, flag = 0;
-
-    printf("Enter a positive integer: ");
-    scanf("%d",&n);
-
-""";
+val input ="""int base, exponent;
+                  int main()
+                  {
+                     printf("Enter a base number: ");
+                     scanf("%d", base);
+                     printf("Enter an exponent: ");
+                     scanf("%d", exponent);
+                     do
+                         result = base;
+                         --exponent;
+                     while (exponent != 0);
+                     printf("Answer = %lld", result);
+                     return 0;
+                  }"""
 val expect = """""";
 assert(checkLex(input,expect,100));
 }

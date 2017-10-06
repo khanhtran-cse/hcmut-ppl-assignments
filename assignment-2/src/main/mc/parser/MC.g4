@@ -45,15 +45,13 @@ declaration: variable_declaration|function_declaration;
 
 variable_declaration:  primary_type list_of_variable SEMI;
 
-function_declaration: return_type ID LB nullable_list_of_param RB block_body;
+function_declaration: return_type ID LB (param (COMMA param)*)? RB block_body;
 
 primary_type: BOOLEAN_TYPE | FLOAT_TYPE | INT_TYPE | STRING_TYPE;
 
 list_of_variable: variable (COMMA variable)*;
 
 return_type: primary_type|VOID_TYPE|array_type|array_ponter_type;
-
-nullable_list_of_param: list_of_param?;
 
 block_body: LP variable_declaration* statement* RP;
 
@@ -63,14 +61,12 @@ array_type:primary_type LSB INT_LIT RSB;
 
 array_ponter_type: primary_type LSB RSB;
 
-list_of_param: param (COMMA param)*;
-
 param: primary_type ID (LSB RSB)?;
 
 statement: if_statement|for_statement|do_while_statement|expression_statement
                     |block_body|return_statement|break_statement|continue_statement;
 
-if_statement: IF LB exp RB statement (ELSE statement);
+if_statement: IF LB exp RB statement (ELSE statement)?;
 
 do_while_statement: DO statement+ WHILE exp SEMI;
 
@@ -175,6 +171,32 @@ DO: 'do';
 WHILE: 'while';
 
 /**
+* Literal
+*
+*/
+INT_LIT: [0-9]+;
+
+BOOLEAN_LIT: 'false'|'true';
+
+ FLOAT_LIT: [0-9]+'.'[0-9]*(('e'|'E')'-'?[0-9]+)? | 
+                    [0-9]*'.'[0-9]+(('e'|'E')'-'?[0-9]+)? |
+                    [0-9]+('e'|'E')'-'?[0-9]+;
+
+STRING_LIT: 
+     '"'(ESC|~[\r\n"\\EOF])*'"' 
+        {
+            String s = getText();
+            if(s.length() > 2){
+                s = s.substring(1, s.length() - 1);
+                setText(s);
+            } else{
+                setText("");
+            }
+
+        }
+    ;
+
+/**
 * Identifier
 *
 */
@@ -236,32 +258,12 @@ SEMI: ';' ;
 
 COMMA: ',';
 
-/**
-* Literal
-*
-*/
-INT_LIT: [0-9]+;
-
-BOOLEAN_LIT: 'false'|'true';
-
- FLOAT_LIT: [0-9]+'.'[0-9]*(('e'|'E')'-'?[0-9]+)? | 
-                    [0-9]*'.'[0-9]+(('e'|'E')'-'?[0-9]+)? |
-                    [0-9]+('e'|'E')'-'?[0-9]+;
 
 WS : [ \t\r\n]+ -> skip ; // skip spaces, tabs, newlines
 
 BLOCK_COMMENT: '/*'.*'*/' ->skip;//skip comment
 
 LINE_COMMENT: '//'(~[\n\r])*->skip; //skip line comment
-
-STRING_LIT: 
-     '"'(ESC|~[\r\n"\\EOF])*'"' 
-        {
-            String s = getText();
-            s = s.substring(1, s.length() - 1);
-            setText(s);
-        }
-    ;
 
 UNCLOSE_STRING: 
      '"'(ESC|~[\r\n"\\EOF])*EOF 
