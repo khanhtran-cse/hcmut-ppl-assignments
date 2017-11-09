@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CheckerSuite, org.scalatest.tools.Framework$$anon$1@19856e09, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 718 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 85[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 56, failed 29, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 29 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	CheckerSuite[0m
+[0m[[0m[31merror[0m] [0m[0m(test:[31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m

@@ -1,0 +1,121 @@
+Run starting. Expected test count is: 0
+CheckerSuite:
+- Undeclared Function
+- Type Mismatch In Expression: getInt
+- Type Mismatch In Expression: putIntLn
+- Check with AST
+- Check with AST putIntLn with float
+- Simple
+- Simple error *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 407) was false (CheckerSuite.scala:54)
+- Declared Variable: in global: normal var decl
+- Redeclared Variable: in global: same int type
+- Redeclared Variable: in global: same float type
+- Redeclared Variable: in global: same boolean type
+- Redeclared Variable: in global: same string type
+- Redeclared Variable: in global: same array type
+- Redeclared Variable: in global: int type vs string type
+- Redeclared Variable: in global: int type vs boolean type
+- Redeclared Variable: in global: int type vs float type
+- Redeclared Variable: in global: string type vs float type
+- Redeclared Variable: in global: string type vs array type
+- Redeclared Variable: in global: mix type
+- Redeclared Variable: in global: decl Function and var has same name
+- Redeclared Function: in global: string type and void foo()
+- Redeclared Parameter: same int type
+- Redeclared Parameter: different int type vs float type
+- Redeclared Parameter: int type vs array pointer type
+- Redeclared Parameter: same array pointer type
+- Redeclared Variable: func has parameter
+- Redeclared Variable: double parameter
+- Redeclared Variable: in local func: same int type
+- Redeclared Variable: in local func: int type vs  string type
+- Redeclared Variable: in local func: int type vs  array type
+- Redeclared Variable: parameter int type vs decl int type *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 431) was false (CheckerSuite.scala:204)
+- Redeclared Variable: parameter arr pointer type vs block int type *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 432) was false (CheckerSuite.scala:210)
+- Redeclared Variable: parameter int type vs decl int type global - 433
+- Redeclared Variable: scope level2: different name
+- Redeclared Variable: in scope level2: same int type
+- Undeclared Function: not decl foo()
+- Undeclared Function: foo() has override by local var decl
+- Undeclared Function: scope level2: foo() has override by local var decl
+- Undeclared Identifier: d
+- Undeclared Identifier: d in Expression stmt
+- Undeclared Identifier: in 
+- Mismatch Stmt If: expr is 'false'
+- Mismatch Stmt If: expr is 'true'
+- Mismatch Stmt If: expr is Integer *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 444) was false (CheckerSuite.scala:342)
+- Mismatch Stmt If: expr is String *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 445) was false (CheckerSuite.scala:353)
+- Mismatch Expression: Assign: int type vs int literal
+- Mismatch Expression: Assign: int type vs boolean literal *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 447) was false (CheckerSuite.scala:373)
+- Mismatch Expression: Div: 2 vs 3.2
+- Mismatch Expression: Div Op: 2 vs 3
+- Mismatch Expression: Assign Op: LHS is void type *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 450) was false (CheckerSuite.scala:403)
+- Mismatch Expression: Assign Op: LHS vs RHS is void type *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 451) was false (CheckerSuite.scala:413)
+- Mismatch Expression: Assign Op: RHS is void type *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 452) was false (CheckerSuite.scala:423)
+- Mismatch Expression: Assign Op: LHS is ArrayPointerType *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 453) was false (CheckerSuite.scala:433)
+- Mismatch Expression: Assign Op: LHS vs RHS is ArrayPointerType *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 454) was false (CheckerSuite.scala:444)
+- Mismatch Expression: Assign Op: LHS is ArrayType *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 455) was false (CheckerSuite.scala:455)
+- Mismatch Expression: Assign Op: LHS vs RHS is ArrayType *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 456) was false (CheckerSuite.scala:466)
+- Mismatch Expression: Assign Op: RHS is ArrayType *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 457) was false (CheckerSuite.scala:477)
+- Mismatch Expression: Assign Op: Int type to Float Type
+- Mismatch Expression: Assign Op: Int type to Array cell float type
+- Mismatch Expression: Assign Op: Float type to Int Type *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 460) was false (CheckerSuite.scala:511)
+- Mismatch Expression: Assign Op: Float literal to Int Type *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 461) was false (CheckerSuite.scala:521)
+- Mismatch Expression: Assign Op: boolean assign to string *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 462) was false (CheckerSuite.scala:532)
+- Mismatch Expression: Negative Op: Float type
+- Mismatch Expression: Negative Op: Boolean literal *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 464) was false (CheckerSuite.scala:553)
+- Mismatch Expression: Negative Op: Boolean Type *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 465) was false (CheckerSuite.scala:563)
+- Mismatch Expression: Not Op: Int type *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 467) was false (CheckerSuite.scala:573)
+- Mismatch Expression: Unary Op: nest Expression *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 468) was false (CheckerSuite.scala:583)
+- Mismatch Expression: Unary Op: nor op with boolean cell
+- Mismatch Expression: Not Op: string literal *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 470) was false (CheckerSuite.scala:603)
+- Mismatch Expression: ArrayCell: array expr is int type *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 471) was false (CheckerSuite.scala:612)
+- Mismatch Expression: ArrayCell: index expr is float literal *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 472) was false (CheckerSuite.scala:621)
+- Mismatch Expression: ArrayCell: array expr is function
+- Mismatch Expression: ArrayCell: index expr is array type *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 474) was false (CheckerSuite.scala:641)
+- Mismatch Expression: ArrayCell: array expr has blacket 
+- Mismatch Expression: ArrayCell: index expr is BinaryOp
+- Mismatch Expression: ArrayCell: index expr is ArrayCell
+- Mismatch Expression: ArrayCell: index expr is nest ArrayCell *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 478) was false (CheckerSuite.scala:681)
+- Mismatch Expression: Function call: reference Float type to parameter as Int Type *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 479) was false (CheckerSuite.scala:691)
+- Mismatch Expression: Function call: reference Float type to parameter as Int Type in the nest fucntion call *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 480) was false (CheckerSuite.scala:701)
+- Mismatch Expression: Function call: mutitle parameter vs para has array type
+- Mismatch Stmt: Return: array type
+- Mismatch Expression: ArrayCell: index is ArrayCell *** FAILED ***
+  CheckerSuite.this.checkCkr(input, expected, 483) was false (CheckerSuite.scala:743)
+- Undeclared Function 2
+- Type Mismatch In Expression: getInt 485
+- Type Mismatch In Expression: putIntLn 486
+Run completed in 718 milliseconds.
+Total number of tests run: 85
+Suites: completed 1, aborted 0
+Tests: succeeded 56, failed 29, canceled 0, ignored 0, pending 0
+*** 29 TESTS FAILED ***
